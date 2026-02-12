@@ -55,7 +55,7 @@ public class Main {
                     System.out.println("\nEscolha o numero do produto a ser removido:");
                     int num = sc.nextInt();
 
-                    if(num >= 1 && num <= produtos.size()) {
+                    if(num <= produtos.size()) {
                         String remover = produtos.remove(num);
                         System.out.println("Produto Removido !!!");
                     } else {
